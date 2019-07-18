@@ -1,0 +1,85 @@
+========================================================================
+++-DONE-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================================================================
+v Fix not correctly scaling of view3d with new opened files
+v Merge addInteraction & addConstraint and similar methods in relation methods in CB_Instance
+v Rewrite CB_Colors in the same way as CB_Particles
+v Finish new opening mechanism in Builder & ClassicalBuilder
+v Partly rewrite view3d (with Java3D) to be more robust and fix the showing of momentum
+v Fix memory leak that occurs while dragging a particle :(
+v Merge CB_Interactions & CB_Constraints into CB_Relations
+v Merge CB_InteractionPanel & CB_ConstraintPanel into CB_RelationPanel
+v Merge CB_InteractionMenu & CB_ConstraintMenu into CB_RelationMenu
+v Store camera position of view3d in CB_Builder and restore on instance switch
+v Store open tab (particles/interactions/constraints) in CB_Builder and restore on instance switch
+v Rightclick menu on instance tabs
+v draw selected particles on top
+v Make actions in particlemenu, interactionmenu & constraintmenu undoable
+v Show momentum in view3d
+v Add option to add multiple particles with the same properties
+v Fix keyboard shortcuts to work all the time
+v Draw momentum of selected particles with a nice arrow? (and make them editable by shift dragging?)
+v ability to drag particles in newinteraction, newconstraint & editrelation dialog
+v Add rightclick menu to view2d particles
+v Rewrite local job code and store the results in a user referenced directory
+v Start using JSpinner
+v Start using JFormattedTextFields
+v Create a function to add multiple particles/interactions/constraints at once with redo (for pasting)
+v Improve import interaction/constraint particles
+v Improve Color dialog usability and layout
+v Selection: search performance in interaction & constraint panel
+v Improve Box dialog usability and layout
+v Use private variables and start using get and set methods
+v Right click menus in the particle, interaction & constraint panels
+v Improved view2d class that uses a single canvas instead of one for each particle
+v Reimplement copy, paste & cut functionality with java clipboard
+v Fix the very long delay when creating an interaction/constraint with lots of particles
+v Only select the particles in the interaction/constraint panel when they are or being expanded
+v Move the menubar from ClassicalBuilder to its own class
+v Add custom icons to JTree's (http://java.sun.com/docs/books/tutorial/uiswing/components/tree.html)
+v Store view variables in CB_Builder so the views will properly update when switching builders
+v Create custom TreeModels for our trees
+v New datastructures? (ArrayList?)
+v Open multiple files {
+	v Move open file management from CB_Builder -> ClassicalBuilder
+	v Move move all the UI elements from CB_Builder -> ClassicalBuilder
+	v Introduce a session arraylist in ClassicalBuilder
+	v Introduce a tabbed UI in ClassicalBuilder to facilitate multiple open files
+}
+
+v Introduce a package for classicalbuilder
+v Send new orders to BOINC website 
+v Create a preferences dialog which stores account settings and other stuff 
+v Store preferences (http://java.sun.com/j2se/1.4.2/docs/api/java/util/prefs/Preferences.html) 
+v List existing orders on BOINC website 
+v Undo/Redo
+v Control select particles
+v 3D view
+v import
+v if import: extend format in comments to store names
+v copy and paste of particles, interactions and constraints
+v Remove conformation error optional
+v add java webstart
+v Make box statements (conformation, trajectory, dynamics) optional
+v add visual effect torsional, bending and constraint
+v view2D optimalScale
+v ability to set interaction and constraint particle order
+v overhaul some dialogs
+v scale 3D detail with amount of particles
+v Make constraint parameters(r) optional
+v disable menu and toolbar items if it is unavailable
+v Treeviews with particles and particle order for interactions and constraints
+v invert Y axis
+v import: fcos in interaction needs converting
+v import: read particle range
+v dialog to change the order and particles in a constraint/interaction
+v overhaul newparticle dialog
+v import: fix particle range (to)
+v overhaul color dialog
+v review total UI in linux / macos
+v Add method to open file in ClassicalBuilder Main method
+v overhaul about dialog
+v lots and lots of comments
+v documentation
+v help (preview Pictures)
+v write guide to compile and deploy the application to java webstart

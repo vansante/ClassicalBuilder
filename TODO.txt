@@ -1,0 +1,30 @@
+========================================================================
+++-TODO-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================================================================
+
+- Check the joblist if a job is a classical job before opening an input/output file.
+
+- Create an interface with the LGI server
+
+- Reimplement the interface with the leiden classical site, but now with XML
+
+- Fix the collapsing of interaction & constraint trees when updating
+
+- Start using exceptions! (http://java.sun.com/docs/books/tutorial/essential/exceptions/index.html)
+
+- Make item & property panels resizable?
+- Add a commit button to the property panels (clearer UI)?
+
+- Add new stuff to the preferences dialog as necessary
+
+- ability to drag particles in interaction & constraint itempanels
+- adaptable view class that makes any combination of views possible
+- draw particles in view2d in order of Z axis
+- scale particle size by distance to introduce a bit of a 3D effect (should be able to disable it as well)
+
+- undo/redo history window
+
+- Memory leak?
+- Testing
+- Usability testing
+- Rewrite the help file

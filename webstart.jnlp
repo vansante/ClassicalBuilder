@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0" codebase="http://pvs.homeip.net/stuff/cb/" href="webstart.jnlp">
+  <information>
+    <title>ClassicalBuilder</title>
+    <vendor>Leiden University</vendor>
+    <homepage href="http://boinc.gorlaeus.net/" />
+    <description>ClassicalBuilder</description>
+    <description kind="short">Classical Builder</description>
+    <icon href="icon.gif" />
+    <icon kind="splash" href="icon.gif" />
+    <offline-allowed />
+  </information>
+
+  <security>
+    <all-permissions/>
+  </security>
+
+  <resources>
+    <j2se version="1.5+" initial-heap-size="80m" max-heap-size="384m" />
+	<jar href="ClassicalBuilder.jar" main="true" />
+	<extension href="http://download.java.net/media/java3d/webstart/release/java3d-1.4.0.jnlp" />
+  </resources>
+
+  <application-desc main-class="ClassicalBuilder.CB_Main" />
+</jnlp>
